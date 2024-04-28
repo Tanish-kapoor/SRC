@@ -1,0 +1,242 @@
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 70px;
+}
+*{
+    font-family: pp mori;
+}
+#container {
+    margin: 0 auto;
+    max-width: 890px;
+    z-index: 10;
+}
+
+p {
+    text-align: center;
+}
+
+.toggle,
+[id^=drop] {
+    display: none;
+}
+.fill ul li a {
+    text-align: center;
+    font-size: 15px;
+}
+.nav1 {
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+}
+
+#logo {
+    display: block;
+    padding: 0 30px;
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.nav1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav1 ul {
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+.nav1 ul li {
+    margin: 0px;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+}
+
+.nav1 a {
+    display: block;
+    padding: 0 20px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.nav1 ul li ul li:hover {
+    background: #ff4545;
+}
+.nav1 ul li ul li {
+    background: #ff3d3d;
+}
+.nav1 ul li ul li p{
+    font-size: 10px;
+}
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 890px;
+}
+
+p {
+    text-align: center;
+}
+.nav1 a:hover {
+}
+#nav {
+    height: 80px;
+    width: 100%;
+    background-color: #e8223b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.nav1 ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+
+.nav1 ul li:hover>ul {
+    display: inherit;
+}
+
+.nav1 ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+.nav1 ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 170px;
+}
+
+li>a:after {
+    content: ' +';
+}
+
+li>a:only-child:after {
+    content: '';
+}
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+    #logo {
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    .nav1 {
+        margin: 0;
+    }
+
+    .toggle+a,
+    .menu {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+        background-color: #ff3939;
+        padding: 0 20px;
+        color: #FFF;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .toggle:hover {
+    }
+
+    [id^=drop]:checked+ul {
+        display: block;
+    }
+
+    .nav1 ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .nav1 ul ul .toggle,
+    .nav1 ul ul a {
+        padding: 0 40px;
+    }
+
+    .nav1 ul ul ul a {
+        padding: 0 80px;
+    }
+
+    .nav1 a:hover,
+    .nav1 ul ul ul a {
+        background-color: #000000;
+    }
+
+    .nav1 ul li ul li .toggle,
+    .nav1 ul ul a {
+        background-color: #ff4747;
+    }
+
+    .nav1 ul ul {
+        float: none;
+        position: static;
+        color: #ffffff;
+    }
+
+    .nav1 ul ul li:hover>ul,
+    .nav1 ul li:hover>ul {
+        display: none;
+    }
+
+    .nav1 ul ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .nav1 ul ul ul li {
+        position: static;
+
+    }
+}
+
+@media all and (max-width : 330px) {
+
+    .nav1 ul li {
+        display: block;
+        width: 94%;
+    }
+
+}
+.container {
+    margin-top: 20px;
+    background-color: #eb324a;
+    min-width: 100%;
+    color: aliceblue;
+}
+
+
+
